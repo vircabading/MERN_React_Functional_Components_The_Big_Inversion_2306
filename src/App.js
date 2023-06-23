@@ -1,5 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
+import MainView from './views/MainView';
 
 function App() {
   return (
@@ -7,6 +7,8 @@ function App() {
       <header className="App-header">
         <h1>The Big Inversion</h1>
       </header>
+      <br />
+      <MainView />
     </div>
   );
 }
