@@ -6,6 +6,7 @@ const PersonCardComp = props => {
     const lastName = props.lastName;
     const weapon = props.weapon;
     const maskColor = props.maskColor;
+    const imgLoc = props.imgLoc;
 
     const personCard = {
         backgroundColor: maskColor,
@@ -17,7 +18,7 @@ const PersonCardComp = props => {
 
     return (
         <div style={personCard} className='rflex' >
-            <img src="https://placekeanu.com/150/150" className="mag10 roundBorder" />
+            <img src={ imgLoc } className="mag10 roundBorder portrait" />
             <div>
                 <p><span className='thick'>Name:</span> {firstName} {lastName}</p>
                 <p><span className='thick'>Weapon:</span> {weapon}</p>

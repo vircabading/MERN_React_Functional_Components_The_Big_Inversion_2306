@@ -56,3 +56,8 @@
 .roundBorder {
   border-radius: 25px;
 }
+
+img.portrait {
+  width: 175px;
+  height: auto;
+}
